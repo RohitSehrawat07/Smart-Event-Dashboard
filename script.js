@@ -75,10 +75,10 @@ clearBtn.addEventListener("click", () => {
 sampleBtn.addEventListener("click", () => {
     events.push({
         id: Date.now(),
-        title: "Tech Conference 2026",
-        date: "2026-03-15",
+        title: "AI Summit 2026",
+        date: "16-03-2026",
         category: "Conference",
-        description: "Annual technology conference."
+        description: "Annual technology Summit."
     });
     renderEvents();
 });
